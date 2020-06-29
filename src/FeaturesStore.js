@@ -1,10 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-
-
-const ItemSelectionStore = {
+const FEATURES = {
   Processor: [
     {
       name: '17th Generation Intel Core HB (7 Core with donut spare)',
@@ -47,4 +41,4 @@ const ItemSelectionStore = {
   ]
 };
 
-ReactDOM.render(<App ItemSelection={ItemSelectionStore}/>, document.getElementById('root'));
+export default FEATURES;
