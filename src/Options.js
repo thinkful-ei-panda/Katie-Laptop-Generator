@@ -1,8 +1,9 @@
 import React from 'react';
 import slugify from 'slugify';
 
+
 function Options(props) {
-  return props.options.map(item => {
+   return props.item.map(item => {
     const itemHash = slugify(JSON.stringify(item));
     return (
       <div key={itemHash} className="feature__item">
