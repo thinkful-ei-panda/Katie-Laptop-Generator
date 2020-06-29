@@ -1,5 +1,5 @@
 import React from 'react';
-import Features from './ItemSelection.js';
+import Features from './Summary.js';
 
 function Form(props) {
     return (
